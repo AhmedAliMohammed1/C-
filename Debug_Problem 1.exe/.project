@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Debug_Problem 1.exe</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Problem 1.exe</name>
+			<type>1</type>
+			<location>C:/Users/LOQ/OneDrive/Desktop/C-/05 - Operators/Homework/Division and Modulus/Easy Challenges/Problem 1/Debug/Problem 1.exe</location>
+		</link>
+	</linkedResources>
+</projectDescription>
