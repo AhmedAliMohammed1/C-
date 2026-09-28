@@ -4,10 +4,13 @@ Course: [Mastering 4 Critical SKILLS Using C++ 17](https://www.udemy.com/course/
 
 All 44 section curricula were reviewed through the connected Udemy catalog. Assignment-bearing practice, homework, requirements, and design-task lectures were read through the signed-in Microsoft Edge transcripts; slides were inspected where exact code, diagrams, formulas, or numbering were needed. This is an assignment inventory, not a claim that every teaching video was watched in full.
 
+[Course guide](README.md) · [Direct links to all 253 tasks](EXERCISES.md) · [Alternative source review](#alternative-source-review)
+
 ## Totals
 
 - Sections reviewed: 44.
 - Assignment groups: 75.
+- Practice sessions: 22; homework sets: 45; projects: 6; other groups: 2.
 - Individual task folders/READMEs: 253.
 - Verified standalone statements: 250.
 - Partial statements needing source material: 3.
@@ -154,6 +157,33 @@ Problems and their solution lectures share one exercise entry. Subtasks remain t
 
 Several resource downloads were redirected by the connected Edge browser to a blocked att-c.udemycdn.com page (ERR_BLOCKED_BY_CLIENT). This was not bypassed. Videos and transcripts remained usable. A current first Printing lesson ZIP was readable but did not contain the full homework resource set. An older local Printing Homework ZIP was for a different Python course and was excluded. Partial statements above identify the specific missing code/data instead of claiming completion.
 
+## Alternative source review
+
+The follow-up review checked sources beyond the lecture transcripts and visible slides. All 44 sections and all 253 identified tasks are indexed. **250 descriptions are verified and usable independently; three still depend on original supplied files.** Additional references and recovery locations were added to those three READMEs without filling missing code from guesses.
+
+| Route checked | Result |
+|---|---|
+| Section-first lecture resources | [Course Resources and Students Community](https://www.udemy.com/course/cpp-4skills/learn/lecture/23219206#overview) says each section's first lecture holds its ZIP of slides, code, and homework solutions. The three relevant archive names and their lecture locations were verified below. |
+| Normal archive downloads in signed-in Edge | Retried **41 OOP Classes.zip** and **50 Project #6 - Expedia.zip**. Both opened an Edge block page for att-c.udemycdn.com with ERR_BLOCKED_BY_CLIENT. No archive contents were recovered from these attempts. |
+| Classes homework Q&A | The instructor's reply in [sol](https://www.udemy.com/course/cpp-4skills/learn/#questions/18488128) points to the first section ZIP for solutions. The reviewed discussion did not provide the full Time class. |
+| JSON homework's external resource | **Another JSON materials** opens [What is JSON? by Telusko](https://www.youtube.com/watch?v=JuFdz8f-cT4). This accessible introduction is recorded for the assignment's later research phase. It does not replace the instructor-modified C++ library and examples. |
+| Expedia's linked Q&A | The resource's instructor-facing link did not expose the discussion to the learner account. The [working learner thread](https://www.udemy.com/course/cpp-4skills/learn/#questions/16553962) was accessible. Instructor replies verified the customer-only demo, dummy dates/data, in-memory users, controlled booking failures, and permission to finish the normal flow before demonstrating cancellation. These clarifications were added to the project README. |
+| Instructor's public sources | The [official course information page](https://sites.google.com/site/mostafasibrahim/misc/coupondiscount-mastering-4-critical-skills-using-c-17) and the instructor's [public repository listing](https://github.com/mostafa-saad?tab=repositories) were inspected. No matching download for these three course archives was found on the reviewed pages. |
+| Available local resources | The available Printing ZIPs did not contain the missing Classes, Polymorphism, or Expedia material. The unrelated Python homework archive was excluded. |
+| Public student repositories | Search surfaced student implementations. They were not treated as authoritative replacements for the instructor's supplied assignment files. |
+
+### Exact recovery locations
+
+Use the stable lecture links below and open their **Resources** menus. Archive titles are recorded exactly as shown; temporary signed download URLs are omitted.
+
+| Task | Lecture and archive | Material still required |
+|---|---|---|
+| Time Class Review | Section 27: [Class Constructor & Destructor](https://www.udemy.com/course/cpp-4skills/learn/lecture/22875647#overview) → **41 OOP Classes.zip** | Full Time implementation for homework problem 5, including method bodies folded in the video |
+| Study JSON Library | Section 33: [Polymorphism 1](https://www.udemy.com/course/cpp-4skills/learn/lecture/22875795#overview) → **47 OOP Polymorphism.zip** | Instructor-edited JSON library and example files for Homework 1, problem 4 |
+| Expedia Reservations | Section 36: [Description](https://www.udemy.com/course/cpp-4skills/learn/lecture/22875943#overview) → **50 Project #6 - Expedia.zip** | Original dummy airline, hotel, and payment API definitions |
+
+The Expedia feature statement and simulation scope are verified. Its remaining gap is the supplied provider contracts. The JSON task's study sequence is verified, but depends on its edited examples. The Time review cannot identify the requested bug reliably without the complete class. These distinctions are reflected in the catalog's source-status column.
+
 ## Corrections and duplicate handling
 
 - Printing Homework contains five C++ tasks.
@@ -181,7 +211,7 @@ Several resource downloads were redirected by the connected Edge browser to a bl
 
 ## Preservation and navigation checks
 
-All pre-existing files captured before editing remain present. Their contents are unchanged except for the root README's added navigation. Existing solution and IDE folders were reused, and the untracked files already present were retained. Additional While Loops solutions created during the review were also preserved and their folders reused. No commit or push was made.
+All pre-existing files captured before editing remain present. This documentation work did not modify existing code, notes, or IDE files. The root README was revised as requested; assignment documentation and indexes were added or improved. Existing solution and IDE folders were reused, and the untracked files already present were retained. Additional While Loops solutions created during the review were also preserved and their folders reused. Concurrent edits to the For Loops solutions were observed during verification and left untouched. No commit or push was made by this task.
 
-Every indexed problem has a README with the required fields. Relative navigation and cross-reference links, duplicate problem paths, source/set numbering, and Windows filename rules were checked. Folder counts refer to unique tasks; a shared problem linked from another section is counted once.
+Every indexed problem has a README with the required fields. Relative navigation and cross-reference links, heading anchors, duplicate problem paths, source/set numbering, and Windows filename rules were checked. The complete exercise catalog links to every task exactly once. Folder counts refer to unique tasks; a shared problem linked from another section is counted once.
 

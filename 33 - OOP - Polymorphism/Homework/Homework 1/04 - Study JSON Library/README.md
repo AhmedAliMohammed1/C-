@@ -27,5 +27,11 @@ Do the example-reading task before researching JSON. XML and YAML are optional f
 ## Source
 
 - [Polymorphism Homework 1](https://www.udemy.com/course/cpp-4skills/learn/lecture/22875813#overview) - Assignment item 4: Study JSON Library. Reviewed through the signed-in Edge video/transcript.
+- [Polymorphism 1](https://www.udemy.com/course/cpp-4skills/learn/lecture/22875795#overview) - The first lecture's Resources menu lists **47 OOP Polymorphism.zip**.
+- [What is JSON? — Telusko](https://www.youtube.com/watch?v=JuFdz8f-cT4) - Accessible introductory reference linked from the homework lecture's **Another JSON materials** resource. Use it during the later research phase, after studying the supplied examples.
+
+## Original material to recover
+
+Open Polymorphism 1, then Resources → **47 OOP Polymorphism.zip**, and locate the instructor-edited JSON library and examples for problem 4. Their contents remain unverified. The linked JSON introduction explains the format, but does not provide those edited C++ files.
 
 [Set index](../README.md) | [Section index](../../../README.md)

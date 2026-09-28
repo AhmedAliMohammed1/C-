@@ -8,21 +8,28 @@
 
 #include <iostream>
 using namespace std;
-#define TOTAL_INPUT_NUMBERS 1000
 int main()
 {
-    int inputNumber{0};
-    cin >> inputNumber;
-    for (int row = 1; row <= inputNumber; row++)
+    int counter{0};
+    for (int x = 50; x <= 300; x++)
     {
-        for (int column = 1; column <= inputNumber; column++)
+        int start = 0;
+
+        if (x < 70)
         {
-            if (column == row || column == inputNumber - row + 1)
-                cout << "*";
-            else
-                cout << " ";
+            start = 70;
         }
-        cout << endl;
+        else
+        {
+            start = x + 1;
+        }
+        for (int y = start; y <= 400; y++)
+        {
+            if ((x + y) % 7 == 0)
+                counter++;
+        }
     }
+    cout << counter;
+
     return 0;
 }

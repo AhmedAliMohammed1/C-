@@ -1,443 +1,175 @@
 # C++ Learning Journey
 
-This repository is an **educational workspace** for practicing C++ and documenting my progress while following the Udemy course:
+My workspace for learning C++17, solving exercises, and building projects while following [Mastering 4 Critical SKILLS Using C++ 17](https://www.udemy.com/course/cpp-4skills/) by Dr. Moustafa Saad and CSkilled Academy.
 
-**Mastering 4 Critical SKILLS Using C++ 17**
+The course develops four connected skills: **programming**, **problem solving**, **project building**, and **software design**. This repository keeps the assignment descriptions, my implementations, and personal notes together.
 
-The repository structure follows the course curriculum and is organized into sections containing:
+[Course map](#course-map) · [All exercises](EXERCISES.md) · [Projects](#course-projects) · [How to use](#working-on-an-exercise) · [Source coverage](COVERAGE.md) · [Learning progress](#learning-progress)
 
-- Lecture topics
-- Practice exercises
-- Homework
-- Programming challenges
-- Mini applications
-- Course projects
-- Personal notes
-- My own implementations and solutions
+## Documentation coverage
 
-The goal of this repository is to build strong practical C++ skills while maintaining a structured record of my learning progress.
+| Measure | Current inventory |
+|---|---:|
+| Course sections reviewed | 44 / 44 |
+| Practice sessions indexed | 22 |
+| Homework sets indexed | 45 |
+| Course projects indexed | 6 |
+| Individual task READMEs | 253 |
+| Verified standalone descriptions | 250 |
+| Descriptions awaiting original material | 3 |
 
----
+All 253 identified tasks have their own README. Documentation status describes the available assignment material; it does not mean I have solved the tasks. The inventory includes practice, homework, design questions, projects, and six optional tasks or extensions.
 
-## Learning Objectives
+The curriculum and assignment sources were reviewed on **28–29 September 2026**. [EXERCISES.md](EXERCISES.md) links directly to every individual task. [COVERAGE.md](COVERAGE.md) records every set, numbering corrections, shared exercises, and remaining source gaps.
 
-The course focuses on developing four main skills:
+## Course map
 
-1. **Programming Skills**  
-   Learning C++ syntax, language features, memory management, STL, templates, and modern C++ concepts.
+Open a section to reach its practice/homework indexes, then select an individual problem. Counts refer to unique tasks assigned to that section; the Image Editor shared between Inheritance and Polymorphism is counted once.
 
-2. **Problem-Solving Skills**  
-   Solving programming problems of increasing difficulty, from basic exercises to harder algorithmic challenges.
+### Fundamentals, arrays, and functions
 
-3. **Project-Building Skills**  
-   Applying programming concepts by building complete console-based systems and applications.
+| Section | Sets | Tasks | Description status |
+|---|---:|---:|---|
+| [01 - Getting Started](01%20-%20Getting%20Started/README.md) | 0 | 0 | No separate assignment identified |
+| [02 - Installation](02%20-%20Installation/README.md) | 0 | 0 | No separate assignment identified |
+| [03 - Printing](03%20-%20Printing/README.md) | 1 | 5 | Verified |
+| [04 - Data Types and Variables](04%20-%20Data%20Types%20and%20Variables/README.md) | 3 | 8 | Verified |
+| [05 - Operators](05%20-%20Operators/README.md) | 5 | 14 | Verified |
+| [06 - Selection](06%20-%20Selection/README.md) | 4 | 13 | Verified |
+| [07 - Loops](07%20-%20Loops/README.md) | 6 | 28 | Verified |
+| [08 - 1D Arrays](08%20-%201D%20Arrays/README.md) | 5 | 20 | Verified |
+| [09 - Char Arrays](09%20-%20Char%20Arrays/README.md) | 4 | 13 | Verified |
+| [10 - Multidimensional Arrays](10%20-%20Multidimensional%20Arrays/README.md) | 5 | 13 | Verified |
+| [11 - Functions](11%20-%20Functions/README.md) | 2 | 8 | Verified |
+| [12 - Recursive Functions](12%20-%20Recursive%20Functions/README.md) | 5 | 20 | Verified |
 
-4. **Software Design Skills**  
-   Learning how to structure programs using functions, classes, object-oriented programming, UML, inheritance, polymorphism, and other software-design concepts.
+### Applications, structures, and STL
 
----
+| Section | Sets | Tasks | Description status |
+|---|---:|---:|---|
+| [13 - Project #1 - Hospital System](13%20-%20Project%20%231%20-%20Hospital%20System/README.md) | 1 | 1 | Verified |
+| [14 - Structures](14%20-%20Structures/README.md) | 1 | 2 | Verified |
+| [15 - Project #2 - Library System](15%20-%20Project%20%232%20-%20Library%20System/README.md) | 1 | 1 | Verified |
+| [16 - Templates](16%20-%20Templates/README.md) | 0 | 0 | No separate assignment identified |
+| [17 - STL](17%20-%20STL/README.md) | 9 | 16 | Verified |
+| [18 - Files and Streams](18%20-%20Files%20and%20Streams/README.md) | 0 | 0 | No separate assignment identified |
+| [19 - Project #3 - Ask.fm - Q & A](19%20-%20Project%20%233%20-%20Ask.fm%20-%20Q%20%26%20A/README.md) | 1 | 1 | Verified |
 
-## Repository Structure
+### Memory, program organization, and debugging
 
-The repository follows the main sections of the course.
+| Section | Sets | Tasks | Description status |
+|---|---:|---:|---|
+| [20 - Pointers](20%20-%20Pointers/README.md) | 0 | 0 | No separate assignment identified |
+| [21 - Headers and Includes](21%20-%20Headers%20and%20Includes/README.md) | 0 | 0 | No separate assignment identified |
+| [22 - Exception Handling](22%20-%20Exception%20Handling/README.md) | 0 | 0 | No separate assignment identified |
+| [23 - More on Fundamentals](23%20-%20More%20on%20Fundamentals/README.md) | 0 | 0 | No separate assignment identified |
+| [24 - Compilation Process](24%20-%20Compilation%20Process/README.md) | 0 | 0 | No separate assignment identified |
+| [25 - Debugger](25%20-%20Debugger/README.md) | 0 | 0 | No separate assignment identified |
 
-```text
-C-
-│
-├── 01 - Getting Started
-├── 02 - Installation
-│
-├── 03 - Printing
-│   └── Homework
-│
-├── 04 - Data Types and Variables
-│   ├── Practice
-│   └── Homework
-│       ├── Easy Challenges
-│       ├── Medium Challenges
-│       └── Hard Challenges
-│
-├── 05 - Operators
-│   ├── Practice
-│   └── Homework
-│       ├── Operators Homework
-│       ├── Logical Operators Homework
-│       └── Division and Modulus
-│
-├── 06 - Selection
-│   ├── Practice
-│   └── Homework
-│
-├── 07 - Loops
-│   ├── While Loops
-│   │   ├── Practice
-│   │   └── Homework
-│   └── For Loops
-│       ├── Practice
-│       └── Homework
-│
-├── 08 - 1D Arrays
-│   ├── Practice
-│   └── Homework
-│
-├── 09 - Char Arrays
-│   ├── Practice
-│   └── Homework
-│
-├── 10 - Multidimensional Arrays
-│   ├── Practice
-│   └── Homework
-│
-├── 11 - Functions
-│   ├── Practice
-│   └── Homework
-│
-├── 12 - Recursive Functions
-│   ├── Practice
-│   └── Homework
-│
-├── 13 - Project #1 - Hospital System
-│   ├── Requirements
-│   ├── Design
-│   └── Implementation
-│
-├── 14 - Structures
-│   ├── Practice
-│   └── Homework
-│
-├── 15 - Project #2 - Library System
-│   ├── Requirements
-│   ├── Design
-│   └── Implementation
-│
-├── 16 - Templates
-│   ├── Function Templates
-│   └── Class Templates
-│
-├── 17 - STL
-│   ├── STL Usage
-│   ├── Practice
-│   └── Homework
-│
-├── 18 - Files and Streams
-│   ├── freopen
-│   ├── fstream
-│   ├── stringstream
-│   ├── Serialization
-│   └── Practice
-│
-├── 19 - Project #3 - Ask.fm - Q & A
-│   ├── Requirements
-│   ├── Design
-│   ├── Database
-│   └── Implementation
-│
-├── 20 - Pointers
-│   ├── References
-│   ├── Pointers Basics
-│   ├── Pointers and Arrays
-│   ├── Pointers and Const
-│   ├── Pointers and Functions
-│   ├── Dynamic Memory Allocation
-│   ├── Pointers and Structures
-│   ├── Memory Leaks and Dangling Pointers
-│   └── Stack and Heap Memory
-│
-├── 21 - Headers and Includes
-│   ├── Headers and Includes
-│   ├── Separating Interface from Implementation
-│   ├── Struct Separation
-│   ├── Forward Declaration
-│   └── Namespaces
-│
-├── 22 - Exception Handling
-│
-├── 23 - More on Fundamentals
-│
-├── 24 - Compilation Process
-│
-├── 25 - Debugger
-│
-├── 26 - Object Oriented Programming
-│   ├── Practice
-│   └── Homework
-│
-├── 27 - OOP - Classes
-│   ├── Constructor and Destructor
-│   ├── Copy Constructor
-│   ├── Initializer List
-│   ├── Default Functions
-│   ├── Deleted Functions
-│   ├── Const with Classes
-│   ├── Static Members
-│   ├── Friend Classes and Functions
-│   └── Homework
-│
-├── 28 - UML Class Diagram
-│
-├── 29 - OOP Part 1 - Summary
-│
-├── 30 - Project #4 - Ask.fm - Q & A (OOP)
-│   ├── Requirements
-│   ├── UML
-│   ├── Design
-│   └── Implementation
-│
-├── 31 - Project #5 - Online Book Reader
-│   ├── Requirements
-│   ├── UML
-│   ├── Design
-│   └── Implementation
-│
-├── 32 - OOP - Inheritance
-│   ├── Practice
-│   └── Homework
-│
-├── 33 - OOP - Polymorphism
-│   ├── Practice
-│   └── Homework
-│
-├── 34 - OOP - Operator Overloading
-│   ├── Binary Operator Overloading
-│   ├── Unary Operator Overloading
-│   ├── Subscript Operator Overloading
-│   ├── Relational Operator Overloading
-│   ├── Prefix and Postfix Operators
-│   └── Homework
-│
-├── 35 - OOP Part 2 - Summary
-│
-├── 36 - Project #6 - Expedia.com
-│   ├── Requirements
-│   ├── UML
-│   ├── Design
-│   ├── APIs
-│   └── Implementation
-│
-├── 37 - More on Templates
-├── 38 - Move Semantics and Perfect Forwarding
-├── 39 - Lambda Expressions
-├── 40 - Smart Pointers
-├── 41 - More on STL
-├── 42 - Modern Wrapper Types
-├── 43 - More on Pointers
-└── 44 - Thank You
-```
+### Object-oriented programming and design
 
----
+| Section | Sets | Tasks | Description status |
+|---|---:|---:|---|
+| [26 - Object Oriented Programming](26%20-%20Object%20Oriented%20Programming/README.md) | 2 | 14 | Verified |
+| [27 - OOP - Classes](27%20-%20OOP%20-%20Classes/README.md) | 4 | 26 | 1 needs original material |
+| [28 - UML Class Diagram](28%20-%20UML%20Class%20Diagram/README.md) | 1 | 1 | Verified |
+| [29 - OOP Part 1 - Summary](29%20-%20OOP%20Part%201%20-%20Summary/README.md) | 0 | 0 | No separate assignment identified |
+| [30 - Project #4 - Ask.fm - Q & A (OOP)](30%20-%20Project%20%234%20-%20Ask.fm%20-%20Q%20%26%20A%20%28OOP%29/README.md) | 1 | 1 | Verified |
+| [31 - Project #5 - Online Book Reader](31%20-%20Project%20%235%20-%20Online%20Book%20Reader/README.md) | 2 | 6 | Verified |
+| [32 - OOP - Inheritance](32%20-%20OOP%20-%20Inheritance/README.md) | 4 | 17 | Verified |
+| [33 - OOP - Polymorphism](33%20-%20OOP%20-%20Polymorphism/README.md) | 4 | 10 | 1 needs original material |
+| [34 - OOP - Operator Overloading](34%20-%20OOP%20-%20Operator%20Overloading/README.md) | 3 | 14 | Verified |
+| [35 - OOP Part 2 - Summary](35%20-%20OOP%20Part%202%20-%20Summary/README.md) | 0 | 0 | No separate assignment identified |
+| [36 - Project #6 - Expedia.com](36%20-%20Project%20%236%20-%20Expedia.com/README.md) | 1 | 1 | 1 needs original material |
 
-## Main Projects
+### Further modern C++
 
-The course includes several larger projects where concepts from previous sections are combined into complete applications.
+| Section | Sets | Tasks | Description status |
+|---|---:|---:|---|
+| [37 - More on Templates](37%20-%20More%20on%20Templates/README.md) | 0 | 0 | No separate assignment identified |
+| [38 - Move Semantics and Perfect Forwarding](38%20-%20Move%20Semantics%20and%20Perfect%20Forwarding/README.md) | 0 | 0 | No separate assignment identified |
+| [39 - Lambda Expressions](39%20-%20Lambda%20Expressions/README.md) | 0 | 0 | No separate assignment identified |
+| [40 - Smart Pointers](40%20-%20Smart%20Pointers/README.md) | 0 | 0 | No separate assignment identified |
+| [41 - More on STL](41%20-%20More%20on%20STL/README.md) | 0 | 0 | No separate assignment identified |
+| [42 - Modern Wrapper Types](42%20-%20Modern%20Wrapper%20Types/README.md) | 0 | 0 | No separate assignment identified |
+| [43 - More on Pointers](43%20-%20More%20on%20Pointers/README.md) | 0 | 0 | No separate assignment identified |
+| [44 - Thank You](44%20-%20Thank%20You/README.md) | 0 | 0 | No separate assignment identified |
 
-### Project 1 — Hospital System
+Sections without separate assignments remain part of the learning path. Their indexes preserve the existing lecture-topic and notes folders. In particular, the later modern C++ sections teach additional language features without separately assigned homework in the reviewed curriculum.
 
-A console-based hospital management system used to practice:
+## Course projects
 
-- Arrays
-- Loops
-- Conditions
-- Functions
-- Basic program design
+| Project | Assignment | Main practice |
+|---|---|---|
+| 1 | [Hospital System](13%20-%20Project%20%231%20-%20Hospital%20System/Requirements/01%20-%20Hospital%20System/README.md) | Patient queues, menus, arrays, and functions |
+| 2 | [Library System](15%20-%20Project%20%232%20-%20Library%20System/Requirements/01%20-%20Library%20System/README.md) | Books, borrowing, users, and structures |
+| 3 | [Ask.fm Q&A](19%20-%20Project%20%233%20-%20Ask.fm%20-%20Q%20%26%20A/Requirements/01%20-%20Ask.fm%20Questions%20and%20Answers/README.md) | Accounts, questions, threads, and file-based data |
+| 4 | [Ask.fm with OOP](30%20-%20Project%20%234%20-%20Ask.fm%20-%20Q%20%26%20A%20%28OOP%29/Requirements/01%20-%20Ask.fm%20with%20Classes/README.md) | Rebuild the earlier application using classes |
+| 5 | [Online Book Reader](31%20-%20Project%20%235%20-%20Online%20Book%20Reader/Requirements/01%20-%20Online%20Book%20Reader/README.md) | Books, reading sessions, and object relationships |
+| 6 | [Expedia Reservations](36%20-%20Project%20%236%20-%20Expedia.com/Requirements/01%20-%20Expedia%20Reservations/README.md) | Itineraries, simulated providers, and booking rollback |
 
-### Project 2 — Library System
+## Working on an exercise
 
-A library management application focusing on:
+1. Open the section and set index, then read the problem README.
+2. Check its input, output, explicit constraints, examples, and source status.
+3. Keep your implementation and notes in that problem folder. Reuse the existing project layout when it already contains code.
+4. Compare your program with the stated behavior and examples. Use the lecture link and timestamp when you need clarification.
 
-- Structures
-- Functions
-- Data organization
-- Program decomposition
+Each problem README records its title and source number, section/set, description, input/output, requirements, available examples, and lecture source. Supplied snippets in tracing or code-review tasks are assignment inputs to examine.
 
-### Project 3 — Ask.fm Q&A System
+## Folder conventions
 
-A question-and-answer system that introduces more complex application structure and file-based data management.
-
-### Project 4 — Ask.fm Q&A System Using OOP
-
-A redesigned version of the Ask.fm project using:
-
-- Classes
-- Encapsulation
-- Object-oriented design
-- UML
-- Separation of responsibilities
-
-### Project 5 — Online Book Reader
-
-An object-oriented application used to practice:
-
-- Classes
-- Relationships between objects
-- UML
-- Application architecture
-
-### Project 6 — Expedia.com
-
-A larger travel-booking application that combines many concepts from the course, including:
-
-- Object-oriented programming
-- Inheritance
-- Polymorphism
-- Software design
-- API abstractions
-- System architecture
-
----
-
-## Homework and Challenges
-
-Many sections contain programming assignments grouped by difficulty:
+The top-level folders retain the course order. Separate practice sessions and homework sets contain one folder per individual problem, for example:
 
 ```text
-Easy
-Medium
-Hard
+08 - 1D Arrays/
+├── README.md
+├── Practice/
+│   ├── README.md
+│   ├── Practice 1/
+│   │   ├── README.md
+│   │   └── 01 - Maximum and Second Maximum/README.md
+│   └── Practice 2/
+└── Homework/
+    ├── README.md
+    ├── Easy Challenges/
+    ├── Medium Challenges/
+    └── Hard Challenges/
 ```
 
-Some sections also contain dedicated:
+Existing folders such as `Problem 1`, `Problem3`, and `Problem 01` keep their names so their source files and IDE projects continue to work. Their README titles and index labels give the verified problem names. Preserved empty folders from the earlier structure are excluded from task totals unless a current assignment was verified for them.
 
-```text
-Practice
-Homework
-Challenges
-Mini Applications
-```
+Course numbers may continue across sets. A problem and its solution lecture share one entry; practice that implements an earlier assignment links to the same problem when appropriate.
 
-I will gradually add my own solutions as I progress through the course.
+## Material still needed
 
----
+The following READMEs clearly mark the missing material; they are included in the inventory but are not counted as complete standalone descriptions.
 
-## Modern C++
+| Section | Task | Missing original material |
+|---|---|---|
+| 27 | [Time Class Review](27%20-%20OOP%20-%20Classes/Homework/Constructors%20and%20Destructors/05%20-%20Time%20Class%20Review/README.md) | Full supplied Time class, including folded method bodies |
+| 33 | [Study JSON Library](33%20-%20OOP%20-%20Polymorphism/Homework/Homework%201/04%20-%20Study%20JSON%20Library/README.md) | Instructor-edited JSON library and example files |
+| 36 | [Expedia Reservations](36%20-%20Project%20%236%20-%20Expedia.com/Requirements/01%20-%20Expedia%20Reservations/README.md) | Dummy airline, hotel, and payment API attachments |
 
-The later sections focus on modern C++ topics such as:
+[Coverage and recovery attempts](COVERAGE.md#alternative-source-review) records which alternatives were checked and what remains unresolved.
 
-- Advanced templates
-- Move semantics
-- Perfect forwarding
-- Lambda expressions
-- Smart pointers
-- Advanced STL
-- Wrapper types
-- Advanced pointer concepts
+## Learning progress
 
-These sections are mainly focused on understanding modern C++ techniques and improving code quality and resource management.
+This checklist tracks my learning milestones. Assignment documentation counts above are tracked separately.
 
----
+- [ ] C++ Fundamentals
+- [ ] Problem Solving
+- [ ] Arrays and Functions
+- [ ] Recursion
+- [ ] STL
+- [ ] Pointers and Memory
+- [ ] Object-Oriented Programming
+- [ ] OOP Projects
+- [ ] Inheritance and Polymorphism
+- [ ] Modern C++
 
-## Repository Purpose
+## About this repository
 
-This repository is intended for **educational purposes**.
+This is a personal educational workspace containing my code, notes, and implementations. The README descriptions paraphrase the course assignments. The repository is intended for learning and review; paid course videos and complete resource archives are not redistributed here.
 
-It serves as:
-
-- A record of my C++ learning journey
-- A place to store my own homework solutions
-- A collection of programming exercises
-- A workspace for course projects
-- A reference for reviewing C++ concepts
-- A way to track my progress from fundamentals to modern C++
-
-The repository contains **my own code, notes, exercises, and implementations**.
-
-It is not intended to redistribute paid course videos, slides, solution files, or other copyrighted course material.
-
----
-
-## Course
-
-**Mastering 4 Critical SKILLS Using C++ 17**
-
-Udemy:
-
-https://www.udemy.com/course/cpp-4skills/
-
----
-
-## Progress
-
-The repository will be updated continuously as I progress through the course.
-
-```text
-[ ] C++ Fundamentals
-[ ] Problem Solving
-[ ] Arrays and Functions
-[ ] Recursion
-[ ] STL
-[ ] Pointers and Memory
-[ ] Object-Oriented Programming
-[ ] OOP Projects
-[ ] Inheritance and Polymorphism
-[ ] Modern C++
-```
-
----
-
-## Technologies
-
-- C++17
-- STL
-- Object-Oriented Programming
-- Git
-- GitHub
-
----
-
-## Author
-
-Educational C++ repository created to document my progress, practice, and implementations while completing the course.
-
-<!-- BEGIN VERIFIED UDEMY NAVIGATION -->
-
-## Verified course navigation
-
-Reviewed against the signed-in Udemy curriculum on 2026-09-28 through 2026-09-29. The original workspace notes and structure above are preserved. Use these indexes for the current assignment mapping.
-
-253 individual task READMEs across 75 practice, homework, project, and extension groups. [Source coverage and remaining material](COVERAGE.md).
-
-- [01 - Getting Started](01%20-%20Getting%20Started/README.md)
-- [02 - Installation](02%20-%20Installation/README.md)
-- [03 - Printing](03%20-%20Printing/README.md)
-- [04 - Data Types and Variables](04%20-%20Data%20Types%20and%20Variables/README.md)
-- [05 - Operators](05%20-%20Operators/README.md)
-- [06 - Selection](06%20-%20Selection/README.md)
-- [07 - Loops](07%20-%20Loops/README.md)
-- [08 - 1D Arrays](08%20-%201D%20Arrays/README.md)
-- [09 - Char Arrays](09%20-%20Char%20Arrays/README.md)
-- [10 - Multidimensional Arrays](10%20-%20Multidimensional%20Arrays/README.md)
-- [11 - Functions](11%20-%20Functions/README.md)
-- [12 - Recursive Functions](12%20-%20Recursive%20Functions/README.md)
-- [13 - Project #1 - Hospital System](13%20-%20Project%20%231%20-%20Hospital%20System/README.md)
-- [14 - Structures](14%20-%20Structures/README.md)
-- [15 - Project #2 - Library System](15%20-%20Project%20%232%20-%20Library%20System/README.md)
-- [16 - Templates](16%20-%20Templates/README.md)
-- [17 - STL](17%20-%20STL/README.md)
-- [18 - Files and Streams](18%20-%20Files%20and%20Streams/README.md)
-- [19 - Project #3 - Ask.fm - Q & A](19%20-%20Project%20%233%20-%20Ask.fm%20-%20Q%20%26%20A/README.md)
-- [20 - Pointers](20%20-%20Pointers/README.md)
-- [21 - Headers and Includes](21%20-%20Headers%20and%20Includes/README.md)
-- [22 - Exception Handling](22%20-%20Exception%20Handling/README.md)
-- [23 - More on Fundamentals](23%20-%20More%20on%20Fundamentals/README.md)
-- [24 - Compilation Process](24%20-%20Compilation%20Process/README.md)
-- [25 - Debugger](25%20-%20Debugger/README.md)
-- [26 - Object Oriented Programming](26%20-%20Object%20Oriented%20Programming/README.md)
-- [27 - OOP - Classes](27%20-%20OOP%20-%20Classes/README.md)
-- [28 - UML Class Diagram](28%20-%20UML%20Class%20Diagram/README.md)
-- [29 - OOP Part 1 - Summary](29%20-%20OOP%20Part%201%20-%20Summary/README.md)
-- [30 - Project #4 - Ask.fm - Q & A (OOP)](30%20-%20Project%20%234%20-%20Ask.fm%20-%20Q%20%26%20A%20%28OOP%29/README.md)
-- [31 - Project #5 - Online Book Reader](31%20-%20Project%20%235%20-%20Online%20Book%20Reader/README.md)
-- [32 - OOP - Inheritance](32%20-%20OOP%20-%20Inheritance/README.md)
-- [33 - OOP - Polymorphism](33%20-%20OOP%20-%20Polymorphism/README.md)
-- [34 - OOP - Operator Overloading](34%20-%20OOP%20-%20Operator%20Overloading/README.md)
-- [35 - OOP Part 2 - Summary](35%20-%20OOP%20Part%202%20-%20Summary/README.md)
-- [36 - Project #6 - Expedia.com](36%20-%20Project%20%236%20-%20Expedia.com/README.md)
-- [37 - More on Templates](37%20-%20More%20on%20Templates/README.md)
-- [38 - Move Semantics and Perfect Forwarding](38%20-%20Move%20Semantics%20and%20Perfect%20Forwarding/README.md)
-- [39 - Lambda Expressions](39%20-%20Lambda%20Expressions/README.md)
-- [40 - Smart Pointers](40%20-%20Smart%20Pointers/README.md)
-- [41 - More on STL](41%20-%20More%20on%20STL/README.md)
-- [42 - Modern Wrapper Types](42%20-%20Modern%20Wrapper%20Types/README.md)
-- [43 - More on Pointers](43%20-%20More%20on%20Pointers/README.md)
-- [44 - Thank You](44%20-%20Thank%20You/README.md)
-
-<!-- END VERIFIED UDEMY NAVIGATION -->
+**Tools and concepts:** C++17, STL, object-oriented programming, UML, Git, and GitHub.
